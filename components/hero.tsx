@@ -241,7 +241,12 @@ interface HeroProps {
   description: string;
   badgeText?: string;
   badgeLabel?: string;
-  ctaButtons?: Array<{ text: string; href: string; primary?: boolean; download?: boolean }>;
+  ctaButtons?: Array<{
+    text: string;
+    href: string;
+    primary?: boolean;
+    download?: boolean;
+  }>;
   microDetails?: Array<string>;
 }
 
@@ -392,7 +397,7 @@ export default function Hero({
               variant={button.primary ? "default" : "outline"}
               size="lg"
             >
-              <a 
+              <a
                 href={button.href}
                 {...(button.download && { download: "Clockin.apk" })}
               >

@@ -43,14 +43,36 @@ export default function Footer() {
               Contact
             </a>
           </nav>
+
+          {/* Legal Links */}
+          <div className="flex flex-wrap justify-center items-center gap-6 text-xs text-white/60">
+            <a
+              href="/privacy-policy"
+              className="hover:text-white/80 transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <span className="text-white/30">•</span>
+            <a
+              href="/terms-condition"
+              className="hover:text-white/80 transition-colors"
+            >
+              Terms & Conditions
+            </a>
+          </div>
         </div>
 
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
           {/* Copyright */}
-          <p className="text-white/50 text-sm">
-            © 2025 Clock-in. All rights reserved.
-          </p>
+          <div className="text-center sm:text-left">
+            <p className="text-white/50 text-sm">
+              © 2025 Clock-in by GDG, IILM University. All rights reserved.
+            </p>
+            <p className="text-white/40 text-xs mt-1">
+              Built with ❤️ for seamless event management
+            </p>
+          </div>
 
           {/* Social Links */}
           <div className="flex items-center space-x-4">
@@ -83,7 +105,7 @@ export default function Footer() {
       <div className="w-full bg-black overflow-hidden">
         <div className="flex justify-center">
           <div className="text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] font-bold text-white/10 leading-none select-none whitespace-nowrap">
-           Clock-In
+            Clock-In
           </div>
         </div>
       </div>

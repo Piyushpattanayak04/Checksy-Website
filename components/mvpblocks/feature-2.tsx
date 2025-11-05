@@ -70,7 +70,7 @@ export default function FeatureSteps() {
     setProgress(0);
     setUserInteracted(true);
     setIsAutoPlaying(false);
-    
+
     // Resume auto-play after 10 seconds of inactivity
     setTimeout(() => {
       if (userInteracted) {
@@ -101,7 +101,7 @@ export default function FeatureSteps() {
             }}
           ></div>
         </div>
-        
+
         {/* Controls */}
         <div className="flex justify-center items-center mb-8 gap-4">
           {/* Progress indicators */}
@@ -114,11 +114,11 @@ export default function FeatureSteps() {
                   "h-2 rounded-full transition-all duration-300 relative overflow-hidden",
                   index === currentFeature
                     ? "w-8 bg-primary/30"
-                    : "w-2 bg-white/30 hover:bg-white/50"
+                    : "w-2 bg-white/30 hover:bg-white/50",
                 )}
               >
                 {index === currentFeature && isAutoPlaying && (
-                  <div 
+                  <div
                     className="absolute left-0 top-0 h-full bg-primary rounded-full transition-all duration-100"
                     style={{ width: `${progress}%` }}
                   />
@@ -129,7 +129,7 @@ export default function FeatureSteps() {
               </button>
             ))}
           </div>
-          
+
           {/* Play/Pause button */}
           <button
             onClick={() => {

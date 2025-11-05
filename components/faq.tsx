@@ -40,7 +40,10 @@ export default function faq() {
   };
 
   return (
-    <section id="faq" className="relative w-full bg-black py-16 md:py-24 lg:py-32">
+    <section
+      id="faq"
+      className="relative w-full bg-black py-16 md:py-24 lg:py-32"
+    >
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16 lg:space-y-20">
         <div className="relative z-10 mx-auto max-w-2xl space-y-6 text-center">
           <h2 className="text-balance text-3xl font-extralight tracking-tight text-white md:text-4xl lg:text-5xl">
