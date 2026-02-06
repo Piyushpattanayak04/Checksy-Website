@@ -399,7 +399,7 @@ export default function Hero({
             >
               <a
                 href={button.href}
-                {...(button.download && { download: "Clockin.apk" })}
+                {...(button.download && { download: "Checksy.apk" })}
               >
                 {button.text}
               </a>

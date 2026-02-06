@@ -14,14 +14,14 @@ export default function CTASection() {
               </h2>
 
               <p className="mt-4 text-sm font-light leading-relaxed tracking-tight text-white/75 text-balance md:text-base">
-                Join thousands of users who trust Clock-in for educational
+                Join thousands of users who trust Checksy for educational
                 institutions, hackathons, and professional workshops.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <RainbowButton variant="default" size="lg" asChild>
-                  <a href="/Clockin.apk" download="Clockin.apk">
+                  <a href="/Checksy.apk" download="Checksy.apk">
                     Download App
                     <ArrowRight className="h-4 w-4" />
                   </a>
@@ -39,7 +39,7 @@ export default function CTASection() {
             {/* Right Content - App Info */}
             <div className="space-y-6">
               <blockquote className="text-lg md:text-xl text-white/90 leading-relaxed">
-                "Clock-in has transformed how we manage our hackathons and
+                "Checksy has transformed how we manage our hackathons and
                 workshops. The seamless registration and QR code system makes
                 check-ins effortless for both organizers and participants."
               </blockquote>

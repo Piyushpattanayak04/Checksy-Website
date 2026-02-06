@@ -70,7 +70,7 @@ export default function NotFound() {
 
           {/* Additional Info */}
           <div className="mt-12 text-sm text-white/50">
-            <p>Error Code: 404 | Clock-in Event Management</p>
+            <p>Error Code: 404 | Checksy Event Management</p>
           </div>
         </div>
       </div>

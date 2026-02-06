@@ -11,12 +11,12 @@ export default function Footer() {
           <div className="flex items-center space-x-2">
             <Image
               src="/logo.png"
-              alt="Clock-in Logo"
+              alt="Checksy Logo"
               width={32}
               height={32}
               className="w-8 h-8"
             />
-            <span className="text-white font-semibold text-lg">Clock-in</span>
+            <span className="text-white font-semibold text-lg">Checksy</span>
           </div>
 
           {/* Navigation Links */}
@@ -67,7 +67,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-center sm:text-left">
             <p className="text-white/50 text-sm">
-              © 2025 Clock-in by GDG, IILM University. All rights reserved.
+              © 2025 Checksy by GDG, IILM University. All rights reserved.
             </p>
             <p className="text-white/40 text-xs mt-1">
               Built with ❤️ for seamless event management
@@ -105,7 +105,7 @@ export default function Footer() {
       <div className="w-full bg-black overflow-hidden">
         <div className="flex justify-center">
           <div className="text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] font-bold text-white/10 leading-none select-none whitespace-nowrap">
-            Clock-In
+            Checksy
           </div>
         </div>
       </div>

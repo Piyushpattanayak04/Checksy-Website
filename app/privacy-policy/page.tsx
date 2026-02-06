@@ -29,7 +29,7 @@ const PolicyPage = () => {
             </h1>
 
             <p className="text-base font-light leading-relaxed tracking-tight text-white/75 text-balance md:text-lg max-w-2xl mx-auto">
-              Learn how Clock-in protects your data and respects your privacy
+              Learn how Checksy protects your data and respects your privacy
               while delivering seamless event management experiences.
             </p>
           </motion.div>
@@ -52,7 +52,7 @@ const PolicyPage = () => {
                 <h2 className="text-xl font-light text-white m-0">Overview</h2>
               </div>
               <p className="text-white/75 font-light leading-relaxed m-0">
-                This privacy policy applies to the Clock-in app created by GDG,
+                This privacy policy applies to the Checksy app created by GDG,
                 IILM University, Gr. Noida as a free service. This service is
                 intended for use "AS IS".
               </p>

@@ -64,12 +64,12 @@ export default function Home() {
       {/* Hero Section */}
       <Hero
         title="Seamless Event Management Made Simple"
-        description="Discover, register, and check in effortlessly with Clock-in. From instant QR tickets to offline access, we make event experiences smoother for everyone."
-        badgeText="Clock-in"
+        description="Discover, register, and check in effortlessly with Checksy. From instant QR tickets to offline access, we make event experiences smoother for everyone."
+        badgeText="Checksy"
         badgeLabel="New"
         ctaButtons={[
           { text: "Discover Features", href: "#features", primary: true },
-          { text: "Download App", href: "/Clockin.apk", download: true },
+          { text: "Download App", href: "/Checksy.apk", download: true },
         ]}
         microDetails={[
           "Secure check-in",
@@ -89,7 +89,7 @@ export default function Home() {
         <div className="relative mx-auto w-full max-w-5xl space-y-8 px-6 py-16 md:py-32 md:px-10 lg:px-16">
           <AnimatedContainer className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-extralight tracking-tight text-white text-balance md:text-4xl lg:text-5xl">
-              Why Choose Clock-in?
+              Why Choose Checksy?
             </h2>
             <p className="mt-4 text-sm font-light leading-relaxed tracking-tight text-white/75 text-balance md:text-base">
               Everything you need for seamless event management and

@@ -11,19 +11,19 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "How does Clock-in's QR code system work?",
+    question: "How does Checksy's QR code system work?",
     answer:
-      "Clock-in generates unique QR codes for each event ticket. Attendees simply scan the code at the venue for instant check-in. The system works offline and syncs when connectivity is restored, ensuring smooth entry even in areas with poor network coverage.",
+      "Checksy generates unique QR codes for each event ticket. Attendees simply scan the code at the venue for instant check-in. The system works offline and syncs when connectivity is restored, ensuring smooth entry even in areas with poor network coverage.",
   },
   {
-    question: "Can I use Clock-in for free events?",
+    question: "Can I use Checksy for free events?",
     answer:
-      "Absolutely! Clock-in offers a free tier that's perfect for small events, community gatherings, and non-profit activities. You can manage up to 100 attendees per event with full access to our core features including QR tickets and basic analytics.",
+      "Absolutely! Checksy offers a free tier that's perfect for small events, community gatherings, and non-profit activities. You can manage up to 100 attendees per event with full access to our core features including QR tickets and basic analytics.",
   },
   {
     question: "What happens if there's no internet at my event?",
     answer:
-      "Clock-in is designed with offline-first functionality. All check-in data is stored locally on your device and automatically syncs when internet connection is restored. This ensures your event runs smoothly regardless of connectivity issues.",
+      "Checksy is designed with offline-first functionality. All check-in data is stored locally on your device and automatically syncs when internet connection is restored. This ensures your event runs smoothly regardless of connectivity issues.",
   },
   {
     question: "How secure is attendee data?",
@@ -33,12 +33,12 @@ const faqData: FAQItem[] = [
   {
     question: "Can I customize the registration form?",
     answer:
-      "Yes! Clock-in allows you to create custom registration forms with the fields you need. Add custom questions, required fields, and even conditional logic to gather exactly the information you need for your event.",
+      "Yes! Checksy allows you to create custom registration forms with the fields you need. Add custom questions, required fields, and even conditional logic to gather exactly the information you need for your event.",
   },
   {
     question: "What analytics and reporting features are available?",
     answer:
-      "Clock-in provides comprehensive analytics including real-time attendance tracking, check-in patterns, demographic insights, and custom reports. Export data in multiple formats and integrate with your existing tools via our API.",
+      "Checksy provides comprehensive analytics including real-time attendance tracking, check-in patterns, demographic insights, and custom reports. Export data in multiple formats and integrate with your existing tools via our API.",
   },
 ];
 
@@ -106,7 +106,7 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-sm font-light leading-relaxed tracking-tight text-white/75 text-balance md:text-base">
-            Everything you need to know about Clock-in
+            Everything you need to know about Checksy
           </p>
         </div>
 

@@ -78,12 +78,12 @@ export function NavBar({ items, className }: NavBarProps) {
             <Link href="/" className="flex items-center space-x-2">
               <Image
                 src="/logo.png"
-                alt="Clock-in Logo"
+                alt="Checksy Logo"
                 width={32}
                 height={32}
                 className="w-8 h-8"
               />
-              <span className="text-white font-bold text-xl">Clock-in</span>
+              <span className="text-white font-bold text-xl">Checksy</span>
             </Link>
 
             {/* Navigation Links */}
@@ -115,7 +115,7 @@ export function NavBar({ items, className }: NavBarProps) {
 
             {/* Download Button */}
             <RainbowButton variant="default" size="sm" asChild>
-              <a href="/Clockin.apk" download="Clockin.apk">
+              <a href="/Checksy.apk" download="Checksy.apk">
                 Download App
               </a>
             </RainbowButton>

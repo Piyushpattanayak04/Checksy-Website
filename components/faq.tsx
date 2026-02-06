@@ -50,7 +50,7 @@ export default function faq() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-sm font-light leading-relaxed tracking-tight text-white/75 text-balance md:text-base">
-            Everything you need to know about Clock-in's event management
+            Everything you need to know about Checksy's event management
             platform and features.
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function faq() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                Clock-in generates unique QR codes for each event ticket.
+                Checksy generates unique QR codes for each event ticket.
                 Attendees simply scan the code at the venue for instant
                 check-in. The system works offline and syncs when connectivity
                 is restored, ensuring smooth entry even in areas with poor
@@ -113,7 +113,7 @@ export default function faq() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                Yes! Clock-in includes a dedicated profile management screen
+                Yes! Checksy includes a dedicated profile management screen
                 where you can update your personal information, preferences, and
                 registration details. This makes future event registrations
                 faster and more convenient.

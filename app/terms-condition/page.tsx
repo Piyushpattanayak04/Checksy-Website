@@ -37,7 +37,7 @@ const TermsPage = () => {
             </h1>
 
             <p className="text-base font-light leading-relaxed tracking-tight text-white/75 text-balance md:text-lg max-w-2xl mx-auto">
-              Please read these terms carefully before using Clock-in. By using
+              Please read these terms carefully before using Checksy. By using
               our application, you agree to these terms and conditions.
             </p>
           </motion.div>
@@ -60,7 +60,7 @@ const TermsPage = () => {
                 <h2 className="text-xl font-light text-white m-0">Agreement</h2>
               </div>
               <p className="text-white/75 font-light leading-relaxed m-0">
-                These terms and conditions apply to the Clock-in app created by
+                These terms and conditions apply to the Checksy app created by
                 GDG, IILM University, Gr. Noida as a free service. Upon
                 downloading or utilizing the Application, you automatically
                 agree to these terms.

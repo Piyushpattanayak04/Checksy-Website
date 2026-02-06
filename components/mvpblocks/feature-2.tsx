@@ -86,10 +86,10 @@ export default function FeatureSteps() {
         <div className="relative mx-auto mb-12 max-w-2xl sm:text-center">
           <div className="relative z-10">
             <h2 className="text-3xl font-extralight tracking-tight text-white text-balance md:text-4xl lg:text-5xl">
-              How Clock-in Works
+              How Checksy Works
             </h2>
             <p className="mt-4 text-sm font-light leading-relaxed tracking-tight text-white/75 text-balance md:text-base">
-              From discovery to check-in, Clock-in makes event management
+              From discovery to check-in, Checksy makes event management
               effortless in just four simple steps.
             </p>
           </div>

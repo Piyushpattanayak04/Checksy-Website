@@ -12,9 +12,9 @@ const navItems = [
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Clock-in - Seamless Event Management Made Simple",
+  title: "Checksy - Seamless Event Management Made Simple",
   description:
-    "Discover, register, and check in effortlessly with Clock-in. From instant QR tickets to offline access for workshops and hackathons.",
+    "Discover, register, and check in effortlessly with Checksy. From instant QR tickets to offline access for workshops and hackathons.",
 };
 
 export default function RootLayout({
